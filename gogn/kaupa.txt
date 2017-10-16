@@ -1,41 +1,97 @@
-Fooþjónustan
-Um
-Kaupa
-Kaupa
+﻿<!doctype html>
+<html class="grid" lang="is">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Verkefni 6 – síða</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="grid.css">
+  </head>
+   <header>
+     <img src="bg-subpage.jpg" alt="">
+     <h1>Kaupa</h1>
+   </header>
+     <body>
+       <h2>Persónuupplýsingar</h2>
+         <section>
+         <div>
+           <div class="">
+             <p>Nafn:</p>
+             <input type="text">
+             <p>Kennitala:</p>
+             <input type="text">
+           </div>
 
-Persónuupplýsingar
-Nafn:
+           <div class="">
+             <p>Kyn:</p>
+               <input type="radio" name="satisfaction" value="Kona"> Kona
+               <input type="radio" name="satisfaction" value="Karl"> Karl
+               <input type="radio" name="satisfaction" value="Annað"> Annað
+           </div>
 
-Kennitala:
+             <div class="">
+               <p>Sími:</p>
+               <input type="text">
+               <p>Heimilisfang:</p>
+               <input type="text">
+             </div>
 
-123456-7890
-Kyn:
-Kona
-Karl
-Annað
-Sími:
+             <div>
+               <input type="checkbox" name="satisfaction" checked> Skrá mig á póstlista
+             </div>
 
-+354 812 3456
-Heimilisfang:
+          <h2>Greiðsluupplýsingar</h2>
 
-Skrá mig á póstlista
-Greiðsluupplýsingar
-Greiða með:
+          <div>
+          <p>Greiða með: </p>
+            <select name="Service">
+              <option value="Kreditkorti">Kreditkorti</option>
+              <option value="Millifærslu">Millifærslu</option>
+              <option value="Reiðufé">Reiðufé</option>
+            </select>
+          </div>
 
-Nafn á korti:
+          <div>
+            <p>Nafn á korti:</p>
+            <input type="text">
+            <p>Kortanúmer:</p>
+            <input type="text">
+          </div>
 
-Kortanúmer:
+          <div>
+          <p>Greiða með: </p>
+          <p>Mán</p>
+            <select name="Service">
+              <option value="01">01</option>
+              <option value="02">02</option>
+              <option value="03">03</option>
+              <option value="04">04</option>
+              <option value="05">05</option>
+              <option value="06">06</option>
+              <option value="07">07</option>
+              <option value="08">08</option>
+              <option value="09">09</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+            </select>
+          </div>
 
-5999-9999-9999-9999
-Gildistími:
-Mán
+          <div>
+          <p>Ár</p>
+            <select name="Service">
+              <option value="2017">2017</option>
+              <option value="2018">2018</option>
+              <option value="2019">2019</option>
+              <option value="2020">2020</option>
+            </select>
+          </div>
 
-Ár
+          <div>
+            <button type="button">Panta</button>
+          </div>
 
-Panta
-Fooþjónustan
-123-4567
-Opið 12-13 alla daga
-Bargata 1
-900 Foobar
-© Fooþjónustan 2017
+      </div>
+     </section>
+    </body>
+  </html>
