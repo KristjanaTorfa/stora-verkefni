@@ -1,0 +1,156 @@
+@charset "UTF-8";
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  margin-right: 20px;
+  margin-left: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5; }
+  @media (min-width: 1200px) {
+    html {
+      margin: 0; } }
+
+
+.header {
+  max-width: $max-width;
+  margin: 0 auto;
+  height: 800px;
+  background: transparent url(bg.jpg) no-repeat fixed;
+  background-size: cover, auto;
+  text-align: center;
+  }
+
+.heading{
+  width: 100%;
+  padding: 0;
+  border: none;
+  font-family: 'Roboto Slab', serif;
+}
+
+.heading--one {
+  font-size: 36px;
+  font-family: 'Roboto Slab' serif;
+  -webkit-transition: all 1.0s ease;
+}
+
+.heading--two {
+  font-size: 72px;
+  font-family: 'Roboto Slab', serif;
+  transition: all 2.0s ease;
+}
+
+.button {
+  display: inline-block;
+  margin: 0;
+  padding: inherit;
+  border: 1px solid #666;
+  border-radius: 4px;
+  width: 150px;
+  max-width: 256px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #eee;
+  background-color: #666;
+  font-family:  'Open Sans', sans-serif;
+  font-size: 36px;
+  text-decoration: none;
+  text-align: center;
+  transition: all 3.0s ease;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #eee;
+  background-color: #333;
+}
+
+.card{
+  line-height: 27px;
+  margin-top: 100px;
+}
+.cardlist {
+  width: 100%;
+  min-width: 200px;
+  max-width: 800px;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 3px;
+}
+.card__img{
+  width: 30px;
+  height: 30px;
+  margin-left: 120px;
+  margin-top: 100px;
+}
+.card__heading{
+  font-family: 'Open Sans', sans-serif;
+  font-style: bold;
+  margin-left: 150px;
+}
+.card__text{
+  margin-left: 150px;
+}
+.img {
+  position: absolute;
+  top: 0; bottom:0; left: 4; right:0;
+  margin: auto;
+  width: 460px;
+  height: 400px;
+
+}
+
+.folk__img {
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+  margin-left: 130px;
+}
+
+.folk__text {
+  font-style: italic;
+  overflow: hidden;
+}
+
+.kaupa{
+  text-align: center;
+  line-height: 50px;
+}
+
+.kaupa__text{
+  font-family:  'Open Sans', sans-serif;
+  font-style: oblique;
+}
+
+.button2{
+    display: inline-block;
+    margin: 0;
+    padding: inherit;
+    border: 1px solid #666;
+    border-radius: 4px;
+    width: 200px;
+    max-width: 256px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #eee;
+    background-color: #666;
+    font-family:  'Open Sans', sans-serif;
+    font-size: 36px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+  }
+.button:hover {
+  color: #eee;
+  background-color: #333;
+}
