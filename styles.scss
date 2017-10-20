@@ -22,7 +22,7 @@ html { /* stylelint-disable-line */
   margin-right: $gutter;
   margin-left: $gutter;
 
-  font-family: 'Open Sans', sans-serif;;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   line-height: 1.5;
 
@@ -226,6 +226,9 @@ main { /* stylelint-disable-line */
   // þar sem við erum að eiga við neikvæð margin á grid, setjum overflow-x
   // hér sem hidden, þá fáum við ekki lárétta skrunstiku
   overflow-x: hidden;
+}
+section{
+  column-count: 2;
 }
 
 @import "scss/grid";
