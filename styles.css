@@ -439,3 +439,6 @@ li.topleft {
       height: 100%;
       min-width: 400px;
       object-fit: cover; } }
+section{
+  column-count: 2;
+}
